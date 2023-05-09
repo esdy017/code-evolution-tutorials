@@ -95,3 +95,18 @@ td {
   /* height: 50px; */
   /* vertical-align: bottom; */
 }
+
+.content-1 {
+  border: 1px solid red;
+  display: inline;
+}
+
+.content-2 {
+  border: 1px solid purple;
+  display: none;
+}
+
+.content-3 {
+  border: 1px solid blue;
+  display: block;
+}
