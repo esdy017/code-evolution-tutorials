@@ -150,3 +150,11 @@ td {
   border: 1px solid #333;
   width: 50vw;
 }
+
+.fxn {
+  font-size: 2rem;
+  /* height: calc(50vh - 100px); */
+  /* height: max(50vh, 600px); */
+  height: min(50vh, 600px);
+  border: 1px solid #333;
+}
