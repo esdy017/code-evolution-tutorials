@@ -1,6 +1,6 @@
-* {
+/* * {
   color: blue;
-}
+} */
 
 h1 {
   color: orange;
@@ -16,4 +16,24 @@ h1 {
 
 #test {
   color: maroon;
+}
+
+.orange {
+  background-color: orange;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 4px;
+  word-spacing: 20px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.font-styles {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 50px;
 }
