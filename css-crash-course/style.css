@@ -43,3 +43,11 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.box-model {
+  border: 1px solid orangered;
+  height: 50px;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+}
