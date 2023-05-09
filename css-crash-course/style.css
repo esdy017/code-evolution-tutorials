@@ -131,6 +131,22 @@ td {
 .container {
   position: relative;
   width: 200px;
-  height: 2000px;
+  /* height: 2000px; */
   border: 1px solid black;
+}
+
+.em-container {
+  font-size: 20px;
+  height: 2em;
+}
+
+.em {
+  font-size: 1.5em;
+}
+
+.rem {
+  font-size: 2rem;
+  height: 50vh;
+  border: 1px solid #333;
+  width: 50vw;
 }
