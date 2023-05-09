@@ -98,5 +98,42 @@
         </tr>
       </tbody>
     </table>
+
+    <!-- FORM ELEMENTS -->
+    <form>
+      <label for="username">Username</label><br />
+      <input type="text" id="username" /><br /><br />
+
+      <label>About You</label><br />
+      <textarea id="about"></textarea><br /><br />
+
+      <label for="country">Country</label><br />
+      <select id="country">
+        <option value="IN">INDIA</option>
+        <option value="SG">SINGAPORE</option>
+        <option value="VN">VIETNAM</option>
+      </select>
+      <br /><br />
+
+      <label>Job Type</label><br />
+      <input type="radio" name="jobtype" value="parttime" id="parttime" />
+      <label for="parttime">Part Time</label>
+      <br />
+      <input type="radio" name="jobtype" value="fulltime" id="fulltime" />
+      <label for="fulltime">Full Time</label>
+      <br /><br />
+
+      <label>Skills</label><br />
+      <input type="checkbox" name="skills" value="html" id="html" />
+      <label for="html">HTML</label>
+      <br />
+      <input type="checkbox" name="skills" value="css" id="css" />
+      <label for="css">CSS</label>
+      <br />
+      <input type="checkbox" name="skills" value="javascript" id="javascript" />
+      <label for="javascript">Javascript</label>
+      <br /><br />
+      <button type="submit">Submit</button>
+    </form>
   </body>
 </html>
