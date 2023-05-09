@@ -51,3 +51,29 @@ ul {
   padding: 20px;
   margin: 20px;
 }
+
+h2 {
+  color: red;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  color: red !important;
+}
+
+.sub-header {
+  color: orange;
+}
+
+#title {
+  color: blue;
+}
+
+.inheritance {
+  color: orange;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
