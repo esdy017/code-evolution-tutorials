@@ -6,10 +6,20 @@ body {
   display: flex;
   /* display: inline-flex; */
   /* flex-direction: column; */
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   /* height: 400px; */
-  /* flex-flow is shorthand for flex-diraction and flex-wrap */
-  flex-flow: row-reverse wrap;
+  /* 
+        flex-flow is shorthand for flex-diraction and flex-wrap 
+        flex-flow: <flex-direction> <flex-wrap>
+  */
+  /* flex-flow: row-reverse wrap; */
+  /* column-gap: 20px;
+  row-gap: 30px; */
+  /* 
+        gap is shorthand for row-gap and column-gap
+        gap: <row-gap> <column-gap>
+   */
+  gap: 40px 20px;
 }
 .flex-item {
   color: white;
