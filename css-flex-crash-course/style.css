@@ -31,13 +31,30 @@ body {
   text-align: center;
   /* flex-grow: 1; */
   /* flex-shrink: 0; */
-  width: 6rem;
+  /* width: 6rem; */
 }
 .item-1 {
   background-color: #b4bf35;
   /* padding-bottom: 3rem; */
-  flex-basis: 200px;
-  flex-grow: 1;
+  /* flex-basis: 200px; */
+  /* flex-grow: 1; */
+  /* 
+    -   flex is shorthand for flex-grow, flex-shrink and flex-basis
+    -   flex: <flex-grow> <flex-shrink> <flex-basis>
+
+    -   flex: 2;        // one value, unitless number: flex-grow
+
+    -   flex: 10em;
+        flex: 30px;     // one value, width/height: flex-basis  
+
+    -   flex: none | initial | auto
+    -   flex: 1 30px;   // two values: flex-grow | flex-basis
+    
+    -   flex: 2 2;      // two values: flex-grow | flex-shrink
+
+    -   flex: 2 2 10%;  // three values: flex-grow | flex:shrink | flex-basis
+  */
+  flex: 2 5 200px;
 }
 .item-2 {
   background-color: #b95f21;
