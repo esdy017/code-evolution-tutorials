@@ -6,8 +6,8 @@ body {
   display: flex;
   /* display: inline-flex; */
   /* flex-direction: column; */
-  flex-wrap: wrap;
-  height: 800px;
+  /* flex-wrap: wrap; */
+  /* height: 800px; */
   /* 
         flex-flow is shorthand for flex-diraction and flex-wrap 
         flex-flow: <flex-direction> <flex-wrap>
@@ -22,7 +22,7 @@ body {
   /* gap: 40px 20px; */
   /* justify-content: space-evenly; */
   /* align-items: baseline; */
-  align-content: space-around;
+  /* align-content: space-around; */
 }
 .flex-item {
   color: white;
@@ -41,6 +41,7 @@ body {
 .item-3 {
   background-color: #1c4c56;
   /* padding-bottom: 3rem; */
+  order: 1;
 }
 .item-4 {
   background-color: #cfb276;
@@ -53,10 +54,12 @@ body {
 }
 .item-7 {
   background-color: #b95f21;
+  order: 2;
 }
 .item-8 {
   background-color: #01243a;
 }
 .item-9 {
   background-color: #aad041;
+  order: 1;
 }
