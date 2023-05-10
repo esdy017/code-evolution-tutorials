@@ -5,9 +5,9 @@ body {
   border: 6px solid black;
   display: flex;
   /* display: inline-flex; */
-  flex-direction: column;
+  /* flex-direction: column; */
   /* flex-wrap: wrap; */
-  height: 400px;
+  height: 800px;
   /* 
         flex-flow is shorthand for flex-diraction and flex-wrap 
         flex-flow: <flex-direction> <flex-wrap>
@@ -20,7 +20,8 @@ body {
         gap: <row-gap> <column-gap>
    */
   /* gap: 40px 20px; */
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  align-items: baseline;
 }
 .flex-item {
   color: white;
@@ -30,12 +31,15 @@ body {
 }
 .item-1 {
   background-color: #b4bf35;
+  padding-bottom: 3rem;
 }
 .item-2 {
   background-color: #b95f21;
+  padding-bottom: 5rem;
 }
 .item-3 {
   background-color: #1c4c56;
+  padding-bottom: 3rem;
 }
 .item-4 {
   background-color: #cfb276;
