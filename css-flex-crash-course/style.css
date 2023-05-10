@@ -5,9 +5,9 @@ body {
   border: 6px solid black;
   display: flex;
   /* display: inline-flex; */
-  /* flex-direction: column; */
-  flex-wrap: wrap;
-  /* height: 400px; */
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  height: 400px;
   /* 
         flex-flow is shorthand for flex-diraction and flex-wrap 
         flex-flow: <flex-direction> <flex-wrap>
@@ -19,7 +19,8 @@ body {
         gap is shorthand for row-gap and column-gap
         gap: <row-gap> <column-gap>
    */
-  gap: 40px 20px;
+  /* gap: 40px 20px; */
+  justify-content: space-evenly;
 }
 .flex-item {
   color: white;
