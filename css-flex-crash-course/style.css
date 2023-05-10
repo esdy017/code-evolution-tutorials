@@ -3,8 +3,9 @@ body {
 }
 .container {
   border: 6px solid black;
-  /* display: flex; */
-  display: inline-flex;
+  display: flex;
+  /* display: inline-flex; */
+  flex-direction: column-reverse;
 }
 .flex-item {
   color: white;
