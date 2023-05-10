@@ -29,6 +29,7 @@ body {
   font-size: 1.5rem;
   padding: 1rem;
   text-align: center;
+  flex-grow: 1;
 }
 .item-1 {
   background-color: #b4bf35;
@@ -41,25 +42,27 @@ body {
 .item-3 {
   background-color: #1c4c56;
   /* padding-bottom: 3rem; */
-  order: 1;
+  /* order: 1; */
 }
 .item-4 {
   background-color: #cfb276;
 }
 .item-5 {
   background-color: #6b0803;
+  /* flex-grow: 1; */
 }
 .item-6 {
   background-color: #1c4c56;
+  /* flex-grow: 3; */
 }
 .item-7 {
   background-color: #b95f21;
-  order: 2;
+  /* order: 2; */
 }
 .item-8 {
   background-color: #01243a;
 }
 .item-9 {
   background-color: #aad041;
-  order: 1;
+  /* order: 1; */
 }
