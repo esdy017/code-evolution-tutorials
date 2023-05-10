@@ -36,6 +36,8 @@ body {
 .item-1 {
   background-color: #b4bf35;
   /* padding-bottom: 3rem; */
+  flex-basis: 200px;
+  flex-grow: 1;
 }
 .item-2 {
   background-color: #b95f21;
@@ -48,7 +50,7 @@ body {
 }
 .item-4 {
   background-color: #cfb276;
-  flex-shrink: 4;
+  /* flex-shrink: 4; */
 }
 .item-5 {
   background-color: #6b0803;
