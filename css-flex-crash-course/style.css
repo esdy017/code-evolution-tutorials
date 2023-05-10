@@ -5,9 +5,11 @@ body {
   border: 6px solid black;
   display: flex;
   /* display: inline-flex; */
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 400px;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* height: 400px; */
+  /* flex-flow is shorthand for flex-diraction and flex-wrap */
+  flex-flow: row-reverse wrap;
 }
 .flex-item {
   color: white;
