@@ -7,7 +7,7 @@ body {
   /* display: inline-flex; */
   /* flex-direction: column; */
   /* flex-wrap: wrap; */
-  /* height: 800px; */
+  height: 800px;
   /* 
         flex-flow is shorthand for flex-diraction and flex-wrap 
         flex-flow: <flex-direction> <flex-wrap>
@@ -23,6 +23,7 @@ body {
   /* justify-content: space-evenly; */
   /* align-items: baseline; */
   /* align-content: space-around; */
+  align-items: flex-end;
 }
 .flex-item {
   color: white;
@@ -54,24 +55,29 @@ body {
 
     -   flex: 2 2 10%;  // three values: flex-grow | flex:shrink | flex-basis
   */
-  flex: 2 5 200px;
+  /* flex: 2 5 200px; */
+  align-self: flex-start;
 }
 .item-2 {
   background-color: #b95f21;
   /* padding-bottom: 5rem; */
+  align-self: flex-end;
 }
 .item-3 {
   background-color: #1c4c56;
   /* padding-bottom: 3rem; */
   /* order: 1; */
+  align-self: center;
 }
 .item-4 {
   background-color: #cfb276;
   /* flex-shrink: 4; */
+  align-self: stretch;
 }
 .item-5 {
   background-color: #6b0803;
   /* flex-grow: 1; */
+  align-self: auto;
 }
 .item-6 {
   background-color: #1c4c56;
