@@ -5,7 +5,9 @@ body {
   border: 6px solid black;
   display: flex;
   /* display: inline-flex; */
-  flex-direction: column-reverse;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 400px;
 }
 .flex-item {
   color: white;
