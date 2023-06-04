@@ -1,3 +1,12 @@
+// store
+// 1. holds app state
+// 2. allow access to state via getState()
+// 3. allow state to be updated via dispatch(action)
+// 4. registers listeners via subscribe(listener)
+// 5. unregisters listeners via function returned by subscribe(listener)
+const redux = require('redux')
+const createStore = redux.createStore
+
 // type of the action string
 const CAKE_ORDERED = 'CAKE_ORDERED'
 
@@ -29,3 +38,24 @@ const reducer = (state = initialState, action) => {
       return state
   }
 }
+
+// store
+// 1.
+const store = createStore(reducer)
+
+// 2.
+console.log('Initial State: ', store.getState())
+
+// 4.
+// store.subscribe(() => console.log('Updated State: ', store.getState()))
+const unsubscribe = store.subscribe(() =>
+  console.log('Updated State: ', store.getState())
+)
+
+// 3.
+store.dispatch(cakeOrder())
+store.dispatch(cakeOrder())
+store.dispatch(cakeOrder())
+
+// 5.
+unsubscribe()
