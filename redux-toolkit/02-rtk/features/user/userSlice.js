@@ -23,15 +23,15 @@ const userSlice = createSlice({
       state.loading = true
     })
     builder.addCase(fetchUsers.fulfilled, (state, action) => {
-      ;(state.loading = false),
-        (state.users = action.payload),
-        (state.error = '')
-    }),
-      builder.addCase(fetchUsers.rejected, (state, action) => {
-        ;(state.loading = false),
-          (state.users = []),
-          (state.error = action.error.message)
-      })
+      state.loading = false
+      state.users = action.payload
+      state.error = ''
+    })
+    builder.addCase(fetchUsers.rejected, (state, action) => {
+      state.loading = false
+      state.users = []
+      state.error = action.error.message
+    })
   },
 })
 
