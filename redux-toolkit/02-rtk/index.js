@@ -1,4 +1,5 @@
 const store = require('./app/store')
+const { fetchUsers } = require('./features/user/userSlice')
 const cakeActions = require('./features/cake/cakeSlice').cakeActions
 const iceCreamActions =
   require('./features/icecream/iceCreamSlice').iceCreamActions
@@ -9,15 +10,17 @@ const unsubscribe = store.subscribe(() => {
   console.log('Updated State: ', store.getState())
 })
 
-store.dispatch(cakeActions.ordered())
-store.dispatch(cakeActions.ordered())
-store.dispatch(cakeActions.ordered())
-store.dispatch(cakeActions.restocked(5))
-store.dispatch(cakeActions.ordered())
+store.dispatch(fetchUsers())
 
-store.dispatch(iceCreamActions.ordered())
-store.dispatch(iceCreamActions.ordered())
-store.dispatch(iceCreamActions.restocked(10))
-store.dispatch(iceCreamActions.ordered())
+// store.dispatch(cakeActions.ordered())
+// store.dispatch(cakeActions.ordered())
+// store.dispatch(cakeActions.ordered())
+// store.dispatch(cakeActions.restocked(5))
+// store.dispatch(cakeActions.ordered())
 
-unsubscribe()
+// store.dispatch(iceCreamActions.ordered())
+// store.dispatch(iceCreamActions.ordered())
+// store.dispatch(iceCreamActions.restocked(10))
+// store.dispatch(iceCreamActions.ordered())
+
+// unsubscribe()
